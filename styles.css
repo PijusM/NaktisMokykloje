@@ -303,7 +303,7 @@ footer img{
 @media only screen and (max-width: 767px) { /* Phone media */
     .notbold{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 6px;
+        font-size: 6.5px;
     }
     #mokestis{
         margin: 115px 25px 55px 15px;
