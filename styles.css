@@ -16,6 +16,21 @@ html{width: 100%; height: 100%;}
     url('./fonts/lemonmilk.otf') format('svg'); /* Legacy iOS */
 }
 /*All*/
+ul{
+    margin-bottom: 45px;
+}
+#sarasas{
+    color:white;
+    font-family: lemonmilk;
+    font-size: 25px;
+    margin: 50px 0px 50px 45px;
+}
+ul li{
+    color: white;
+    font-family: lemonmilk;
+    font-size: 20px;
+    margin-left: 50px;
+}
 .blue{
     color:rgb(92, 128, 245);
 }
