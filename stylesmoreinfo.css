@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,11 +19,20 @@ html{width: 100%; height: 100%; box-sizing: border-box;}
     url('./fonts/lemonmilk.otf')  format('truetype'), /* Safari, Android, iOS */
     url('./fonts/lemonmilk.otf') format('svg'); /* Legacy iOS */
 }
-/*All*/
+
+
+
+
 
 
 ul{
     margin-bottom: 45px;
+}
+#sarasas{
+    color:white;
+    font-family: lemonmilk;
+    font-size: 25px;
+    margin: 50px 0px 50px 45px;
 }
 
 .blue{
@@ -34,7 +47,7 @@ ul{
     gap: 70px;
     flex-wrap: nowrap;
     position: relative;
-    margin-top: 300px;
+    margin-top: 450px;
     margin-bottom: 100px;
     width: 100%;
     align-items : center;
@@ -68,13 +81,17 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
 }
-/*Header*/
 
-/*Nav bar*/
+
+
+
+
+
+
 .navbar{
     list-style-type: none;
-    margin-top: 30px;
     width: 100%;
+    margin-top: 30px;
     text-align: center;
 }
 .navbar li{
@@ -93,48 +110,37 @@ header{
 .navbar li a:hover{
     color: rgb(0, 162, 255);
 }
-/*Content*/
-#arrow{
-    position: absolute;
-    margin-top: 100px;
-    font-size: 40px;
-    text-align: left;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    width: 30%;
-    background-color: white;
-    content: "";
-    height: 60px;
-    right: 0;
-    font-family: lemonmilk;
-    border: 1px solid white;
-    border-radius: 25px 0px 0px 25px;
-    box-shadow: 2px 2px 0px 1px #0044ff;
-}
 
 
 
-main h1{
-    color:white;
-    position: relative;
-    margin: 50px 5px 0px 40px;
-    font-size: 40px;
-    font-family: lemonmilk;
-    padding: 10px;
-}
-.border{
-    border-bottom: 2px solid white;
-    width: 400px;
-}
-main p{
+
+.information{
     color: white;
-    margin: 50px 5px 0px 40px;
-    font-size: 25px;
-    text-align: left;
-    width: 75%;
     font-family: lemonmilk;
+    font-size: 35px;
+    margin: 75px 40px;
+    width: 550px;
+    white-space: nowrap;
 }
-/*Footer*/
+#sarasas{
+    color:white;
+    font-family: lemonmilk;
+    font-size: 22px;
+    margin: 75px 40px;
+    text-overflow: clip;
+}
+.atsinesimas li{
+    color: white;
+    font-family: lemonmilk;
+    font-size: 18px;
+    margin: 75px 40px
+}
+
+
+
+
+
+
 footer{
     display: flex;
     position: relative;
@@ -166,7 +172,6 @@ footer p{
     font-size: 20px;
     font-family: 'lemonmilk';
     margin-left: 35vw;
-    margin-right: 50px;
 }
 footer img{
     position: relative;
@@ -175,47 +180,6 @@ footer img{
 }
 
 @media only screen and (max-width: 1700px) { /*Bit bigger screen media*/
-    .notbold{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-    }
-    #caption{
-        font-size: 20px;
-        margin-left: -20px;
-    }
-    .programa{
-        display: flex;
-        gap: 5px;
-        flex-wrap: nowrap;
-        position: relative;
-        margin-top: 200px;
-        margin-bottom: 100px;
-        width: 100%;
-        align-items : center;
-        justify-content : center;
-        background-color: rgba(0, 0, 0, 0.4);
-        padding-top: 50px;
-    }
-    #programainfo2{
-        text-align: center;
-        font-size: 16px;
-        color: white;
-        font-family: lemonmilk;
-    }
-    #programainfo{
-        text-align: center;
-        font-size: 16px;
-        margin-left: -20px;
-        color: white;
-        font-family: lemonmilk;
-    }
-    ul{
-        width: 100%;
-        text-align: center;
-    }
-    .atsinesimas{
-        text-align: left;
-    }
     .navbar{
         margin: 20px 0px 0px 0px;
     }
@@ -261,72 +225,32 @@ footer img{
         margin-left: 18px;
         margin-right: 0px;
     }
-    #arrow{
-        position: absolute;
-        margin-top: 50px;
-        font-size: 25px;
-        text-align: left;
-        padding-left: 15px;
-        width: 450px;
-        background-color: white;
-        padding-top: 15px;
-        content: "";
-        height: 45px;
-        right: 0;
-        font-family: lemonmilk;
-        border: 1px solid white;
-        border-radius: 25px 0px 0px 25px;
-        box-shadow: 1px 1px 0px 1px #0044ff;
-    }
+
     footer{
         position: relative;
         bottom: 0;
     }
-
+    .information{
+        margin: 120px 40px 75px 40px;
+    }
 }
 
 @media only screen and (max-width: 767px) { /* Phone media */
-    main h1{
-        margin-left: 20px;
+    .information{
+        font-size: 18px;
+        margin: 90px 25px 50px 5px;
+        width: fit-content;
+        white-space: nowrap;
     }
-    main p{
-        margin-left: 20px;
-    }
-    .notbold{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 6.5px;
-    }
- 
-    #caption{
-        margin: 0px 25px 75px -10px;
-        
-    }
-    .programa{
-        display: flex;
-        gap: 5px;
-        flex-wrap: nowrap;
-        position: relative;
-        margin-top: 200px;
-        margin-bottom: 100px;
-        width: 100%;
-        align-items : center;
-        justify-content : center;
-        background-color: rgba(0, 0, 0, 0.4);
-        padding-top: 25px;
-        padding-bottom: 0px;
-    }
-    #programainfo2{
-        text-align: center;
-        font-size: 8px;
-        color: white;
+    #sarasas{
+        color:white;
         font-family: lemonmilk;
+        font-size: 15px;
+        margin: 50px 15px;
     }
-    #programainfo{
-        text-align: center;
-        font-size: 8px;
-        color: white;
-        font-family: lemonmilk;
-    
+    .atsinesimas li{
+        font-size: 12px;
+        margin: 25px 35px;
     }
     .navbar{
         margin: 30px 0px 0px 0px;
@@ -350,7 +274,6 @@ footer img{
     }
     footer{
         height: 100px;
-        margin-top: 200px;
     }
     footer h1{
         font-size: 10px;
@@ -377,57 +300,8 @@ footer img{
         margin-left: 23.5px;
         margin-right: 0px;
     }
-    main h1{
-        font-size: 10px;
-    }
-    main p{
-        margin-top: 25px;
-        font-size: 10px;
-    }
-    .border{
-        width: 100px;
-    }
-    #arrow{
-        position: absolute;
-        margin-top: 50px;
-        font-size: 10px;
-        text-align: left;
-        padding-left: 15px;
-        padding-top: 15px;
-        width: 200px;
-        background-color: white;
-        content: "";
-        height: 20px;
-        right: 0;
-        font-family: lemonmilk;
-        border: 1px solid white;
-        border-radius: 25px 0px 0px 25px;
-        box-shadow: 1px 1px 0px 1px #0044ff;
-    }
     footer{
         position: relative;
         bottom: 0;
-    }
-    .information{
-        font-size: 18px;
-        margin: 90px 25px 50px 5px;
-        width: 550px;
-        white-space: nowrap;
-    }
-    #sarasas{
-        color:white;
-        font-family: lemonmilk;
-        font-size: 15px;
-        margin: 50px 15px;
-    }
-    .atsinesimas li{
-        font-size: 12px;
-        margin: 25px 35px;
-    }
-    main h1{
-        font-size: 18px;
-    }
-    .border{
-        width: 150px;
     }
 }
