@@ -293,19 +293,19 @@ footer img{
 @media only screen and (max-width: 767px) { /* Phone media */
     .border{
         margin-left: 20px;
-        width: 150px;
-        font-size: 15px;
+        width: 250px;
+        font-size: 20px;
     }
     
     main p{
         margin-top: 25px;
         margin-left: 20px;
-        font-size: 12px;
+        font-size: 18px;
         text-align: left;
     }
     .notbold{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 6.5px;
+        font-size: 10px;
     }
  
     #caption{
@@ -328,13 +328,13 @@ footer img{
     }
     #programainfo2{
         text-align: center;
-        font-size: 8px;
+        font-size: 9px;
         color: white;
         font-family: lemonmilk;
     }
     #programainfo{
         text-align: center;
-        font-size: 8px;
+        font-size: 9px;
         color: white;
         font-family: lemonmilk;
     
@@ -347,7 +347,7 @@ footer img{
     }
     .navbar li{
         display: inline;
-        font-size: 7px;
+        font-size: 9px;
         padding: 2px;
         margin: 0px 0px 0px 0px;
         font-family: 'lemonmilk';
@@ -377,7 +377,7 @@ footer img{
         border-left:3px solid white;
     }
     footer p{
-        font-size: 7px;
+        font-size: 8px;
         font-family: 'lemonmilk';
         margin-left: 0px;
         margin-right: 14px;

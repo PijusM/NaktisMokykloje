@@ -1,7 +1,3 @@
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -19,59 +15,7 @@ html{width: 100%; height: 100%; box-sizing: border-box;}
     url('./fonts/lemonmilk.otf')  format('truetype'), /* Safari, Android, iOS */
     url('./fonts/lemonmilk.otf') format('svg'); /* Legacy iOS */
 }
-
-
-
-
-
-
-ul{
-    margin-bottom: 45px;
-}
-#sarasas{
-    color:white;
-    font-family: lemonmilk;
-    font-size: 25px;
-    margin: 50px 0px 50px 45px;
-}
-
-.blue{
-    color:rgb(92, 128, 245);
-}
-.notbold{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-}
-.programa{
-    display: flex;
-    gap: 70px;
-    flex-wrap: nowrap;
-    position: relative;
-    margin-top: 450px;
-    margin-bottom: 100px;
-    width: 100%;
-    align-items : center;
-    justify-content : center;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 50px;
-}
-#caption{
-    margin-right: 5%;
-    margin-bottom: 150px;
-}
-#programainfo2{
-    text-align: center;
-    font-size: 32px;
-    margin-right: 5%;
-    color: white;
-    font-family: lemonmilk;
-}
-#programainfo{
-    text-align: center;
-    font-size: 32px;
-    color: white;
-    font-family: lemonmilk;
-}
+/*All*/
 header{
     display: absolute;
     width: 100%;
@@ -81,17 +25,13 @@ header{
     background-repeat: no-repeat;
     background-size:cover;
 }
+/*Header*/
 
-
-
-
-
-
-
+/*Nav bar*/
 .navbar{
     list-style-type: none;
-    width: 100%;
     margin-top: 30px;
+    width: 100%;
     text-align: center;
 }
 .navbar li{
@@ -110,40 +50,33 @@ header{
 .navbar li a:hover{
     color: rgb(0, 162, 255);
 }
-
-
-
-
-.information{
+/*Content*/
+main h1{
     color: white;
     font-family: lemonmilk;
+    margin: 50px 5px 0px 40px;
     font-size: 40px;
-    margin: 50px 40px;
-    width: 550px;
-    white-space: nowrap;
+    padding: 10px;
     border-bottom: 2px solid white;
     width: 400px;
-    padding: 10px;
 }
-#sarasas{
-    color:white;
-    font-family: lemonmilk;
-    font-size: 32px;
-    margin: 75px 50px;
-    text-overflow: clip;
-}
-.atsinesimas li{
+main ol li{
     color: white;
     font-family: "PT SANS";
-    font-size: 25px;
-    margin: 75px 50px;
+    margin: 50px 5px 75px 60px;
+    font-size: 30px;
+    text-align: left;
 }
-
-
-
-
-
-
+main h2{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px auto;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    padding: 15px;
+}
+/*Footer*/
 footer{
     display: flex;
     position: relative;
@@ -175,6 +108,7 @@ footer p{
     font-size: 20px;
     font-family: 'lemonmilk';
     margin-left: 35vw;
+    margin-right: 50px;
 }
 footer img{
     position: relative;
@@ -228,31 +162,38 @@ footer img{
         margin-left: 18px;
         margin-right: 0px;
     }
-
     footer{
         position: relative;
         bottom: 0;
     }
+
 }
 
 @media only screen and (max-width: 767px) { /* Phone media */
-    .information{
-        display: block;
-        font-size: 20px;
+    main h1{
+        color: white;
+        font-family: lemonmilk;
         margin: 50px 5px 0px 20px;
-        font-family: "lemonmilk";
+        font-size: 20px;
+        padding: 10px;
         border-bottom: 2px solid white;
         width: 250px;
     }
-    #sarasas{
-        color:white;
-        font-family: lemonmilk;
-        font-size: 18px;
-        margin: 25px 20px;
-    }
-    .atsinesimas li{
+    main ol li{
+        color: white;
+        font-family: "PT SANS";
+        margin: 35px 5px 0px 30px;
         font-size: 15px;
-        margin: 35px 35px;
+        text-align: left;
+    }
+    main h2{
+        color: red;
+        font-size: 18px;
+        text-align: center;
+        margin: 50px auto;
+        background-color:rgba(0, 0, 0, 0.6);
+        width: fit-content;
+        padding: 15px;
     }
     .navbar{
         margin: 30px 0px 0px 0px;
@@ -276,6 +217,7 @@ footer img{
     }
     footer{
         height: 100px;
+        margin-top: 100px;
     }
     footer h1{
         font-size: 10px;
@@ -302,6 +244,7 @@ footer img{
         margin-left: 23.5px;
         margin-right: 0px;
     }
+    
     footer{
         position: relative;
         bottom: 0;
