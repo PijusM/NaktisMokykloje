@@ -117,23 +117,26 @@ header{
 .information{
     color: white;
     font-family: lemonmilk;
-    font-size: 35px;
-    margin: 75px 40px;
+    font-size: 40px;
+    margin: 50px 40px;
     width: 550px;
     white-space: nowrap;
+    border-bottom: 2px solid white;
+    width: 400px;
+    padding: 10px;
 }
 #sarasas{
     color:white;
     font-family: lemonmilk;
-    font-size: 22px;
-    margin: 75px 40px;
+    font-size: 32px;
+    margin: 75px 50px;
     text-overflow: clip;
 }
 .atsinesimas li{
     color: white;
-    font-family: lemonmilk;
-    font-size: 18px;
-    margin: 75px 40px
+    font-family: "PT SANS";
+    font-size: 25px;
+    margin: 75px 50px;
 }
 
 
@@ -237,16 +240,18 @@ footer img{
 
 @media only screen and (max-width: 767px) { /* Phone media */
     .information{
-        font-size: 18px;
-        margin: 90px 25px 50px 5px;
-        width: fit-content;
-        white-space: nowrap;
+        display: block;
+        font-size: 15px;
+        margin: 50px 5px 0px 20px;
+        font-family: "lemonmilk";
+        border-bottom: 2px solid white;
+        width: 150px;
     }
     #sarasas{
         color:white;
         font-family: lemonmilk;
-        font-size: 15px;
-        margin: 50px 15px;
+        font-size: 13px;
+        margin: 25px 20px;
     }
     .atsinesimas li{
         font-size: 12px;
