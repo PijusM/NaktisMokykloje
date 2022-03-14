@@ -63,7 +63,7 @@ main h1{
 main ol li{
     color: white;
     font-family: "PT SANS";
-    margin: 50px 5px 75px 60px;
+    margin: 35px 5px 35px 60px;
     font-size: 30px;
     text-align: left;
 }
@@ -71,7 +71,7 @@ main h2{
     color: red;
     font-size: 30px;
     text-align: center;
-    margin: 50px auto;
+    margin: 75px auto;
     background-color:rgba(0, 0, 0, 0.6);
     width: fit-content;
     padding: 15px;
@@ -182,15 +182,15 @@ footer img{
     main ol li{
         color: white;
         font-family: "PT SANS";
-        margin: 35px 5px 0px 30px;
         font-size: 15px;
+        margin: 20px 35px;
         text-align: left;
     }
     main h2{
         color: red;
         font-size: 18px;
         text-align: center;
-        margin: 50px auto;
+        margin: 50px auto 25px auto;
         background-color:rgba(0, 0, 0, 0.6);
         width: fit-content;
         padding: 15px;
@@ -217,7 +217,7 @@ footer img{
     }
     footer{
         height: 100px;
-        margin-top: 100px;
+        margin-top: 65px;
     }
     footer h1{
         font-size: 10px;

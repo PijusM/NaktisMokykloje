@@ -25,53 +25,7 @@ html{width: 100%; height: 100%; box-sizing: border-box;}
 
 
 
-ul{
-    margin-bottom: 45px;
-}
-#sarasas{
-    color:white;
-    font-family: lemonmilk;
-    font-size: 25px;
-    margin: 50px 0px 50px 45px;
-}
 
-.blue{
-    color:rgb(92, 128, 245);
-}
-.notbold{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-}
-.programa{
-    display: flex;
-    gap: 70px;
-    flex-wrap: nowrap;
-    position: relative;
-    margin-top: 450px;
-    margin-bottom: 100px;
-    width: 100%;
-    align-items : center;
-    justify-content : center;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 50px;
-}
-#caption{
-    margin-right: 5%;
-    margin-bottom: 150px;
-}
-#programainfo2{
-    text-align: center;
-    font-size: 32px;
-    margin-right: 5%;
-    color: white;
-    font-family: lemonmilk;
-}
-#programainfo{
-    text-align: center;
-    font-size: 32px;
-    color: white;
-    font-family: lemonmilk;
-}
 header{
     display: absolute;
     width: 100%;
@@ -129,14 +83,15 @@ header{
     color:white;
     font-family: lemonmilk;
     font-size: 32px;
-    margin: 75px 50px;
+    margin: 50px 50px;
     text-overflow: clip;
 }
+
 .atsinesimas li{
     color: white;
     font-family: "PT SANS";
     font-size: 25px;
-    margin: 75px 50px;
+    margin: 25px 50px;
 }
 
 
@@ -253,7 +208,7 @@ footer img{
     }
     .atsinesimas li{
         font-size: 15px;
-        margin: 35px 35px;
+        margin: 20px 35px;
     }
     .navbar{
         margin: 30px 0px 0px 0px;
