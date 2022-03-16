@@ -106,6 +106,7 @@ header{
 }
 .navbar li a:hover{
     color: rgb(0, 162, 255);
+    transition: color 0.5s;
 }
 .food{
     display: flex;
