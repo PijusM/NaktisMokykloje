@@ -62,7 +62,8 @@ header{
 }
 .navbar li a:hover{
     color: rgb(0, 162, 255);
-    transition: color 0.5s;
+    border-color: rgb(15, 167, 255);
+    transition: color 0.5s, border-color 0.3s;
 }
 
 
