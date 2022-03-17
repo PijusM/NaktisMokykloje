@@ -111,6 +111,19 @@ header{
     border: 1px solid white;
     border-radius: 25px 0px 0px 25px;
     box-shadow: 2px 2px 0px 1px #0044ff;
+    
+}
+#arrow a{
+    text-decoration: none;
+    color: black;
+}
+#arrow a:hover{
+    color: rgb(0, 162, 255);
+    transition: color 0.5s;
+}
+#arrow a:active{
+    opacity: 0.5;
+    transition: opacity 0.5s;
 }
 
 
