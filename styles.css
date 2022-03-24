@@ -37,7 +37,7 @@ ul{
 .programa{
     margin: 350px auto 200px auto;
     width: 100%;
-    height: 820px;
+    height: fit-content;
     padding-top: 30px;
     padding-bottom: 15px;
     background-color: black;
@@ -225,7 +225,6 @@ footer img{
     .programa{
         margin: 200px auto 200px auto;
         width: 100%;
-        height: 575px;
         padding-top: 15px;
         padding-bottom: 25px;
         background-color: black;
@@ -332,7 +331,6 @@ footer img{
     .programa{
         margin: 200px auto 100px auto;
         width: 100%;
-        height: 350px;
         padding-top: 15px;
         padding-bottom: 25px;
         background-color: black;
