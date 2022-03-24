@@ -13,7 +13,7 @@ html{width: 100%; height: 100%; box-sizing: border-box;}
     url('./fonts/lemonmilk.otf') format('woff2'), /* Super Modern Browsers */
     url('./fonts/lemonmilk.otf') format('woff'), /* Pretty Modern Browsers */
     url('./fonts/lemonmilk.otf')  format('truetype'), /* Safari, Android, iOS */
-    url('./fonts/lemonmilk.otf') format('svg'); /* Legacy iOS */
+    url('./fonts/lemonmilk.otf') format('svg'); /* Legacy iOSS */
 }
 /*All*/
 
